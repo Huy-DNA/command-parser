@@ -1,0 +1,27 @@
+{
+  "name": "command-parser",
+  "version": "1.0.0",
+  "description": "A simple command parser",
+  "main": "index.js",
+  "module": "./index.js",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "package-locl.json"
+  ],
+  "author": "huydo862003@gmail.com",
+  "repository": "https://github.com/Huy-DNA/command-parser",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^1.5.2"
+  }
+}
