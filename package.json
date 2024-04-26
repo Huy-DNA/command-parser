@@ -1,5 +1,5 @@
 {
-  "name": "command-parser",
+  "name": "@huydna/command-parser",
   "version": "1.0.0",
   "description": "A simple command parser",
   "main": "index.js",
